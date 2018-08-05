@@ -4,7 +4,7 @@
      float: left;
      margin-left: 200px;
      margin-bottom: 0;
-     font-family: cursive;
+     margin-top: 0;
      border-bottom: 1px solid black
     
 }
@@ -37,6 +37,7 @@ h2 {
 }
 
 section {
+    width: 960px;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 50px;
@@ -44,7 +45,6 @@ section {
     background-color: azure;
     border: 1px solid blue;
     padding: 25px;
-    border-bottom: 10px solid blue;
 }
 
 #myPic {
@@ -53,6 +53,7 @@ section {
 }
 
 body {
-    background-color: lightgray
+    background-color: lightgray;
+    border-bottom: 10px solid blue;
     
 }

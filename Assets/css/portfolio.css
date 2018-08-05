@@ -1,0 +1,82 @@
+#name { 
+    background-color: blue;
+    width: 200px;
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-bottom: 1px solid black
+   
+}
+
+.bottom {
+   border-bottom: 1px solid black;
+}
+
+.myLinks {
+   float: right;
+   width: 33.33%;
+   padding: 5px;
+   display: inline;
+}
+
+.clearfix::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    background-color: azure;
+    margin-right: 25px;
+    margin-left: 25px
+}
+
+section {
+    width: 960px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: azure;
+    border: 1px solid darkmagenta;
+    padding: 25px;
+}
+
+
+.topPic1 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+
+}
+
+.topPic2 {
+    float: right;
+    width: 50%;
+    padding: 5px;
+}
+
+.middlePic1{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.middlePic2 {
+    float: right;
+    width: 50%;
+    padding: 5px;
+}
+
+.bottomPic {
+    float: left;
+    width: 50%;
+}
+
+
+
+
+
+ 

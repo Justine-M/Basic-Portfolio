@@ -5,23 +5,56 @@
 
     <title>Message Me</title>
 
+    <link rel="stylesheet" type="text/css" href="Assets/css/contact.css">
+
 </head>
 
 <body>
 
-<h1>Justine Mays</h1>
+    <div class="clearfix bottom">
 
-<h2>Name</h2>
-    
-    <p>Justine Mays</p>
+        <h1 id="name">Justine Mays</h1>
 
-<h2>Email</h2>
+        <div class="myLinks">
 
-    <p>justalexmays@hotmail.com</p>
+            <a href="index.html">About</a> |
 
-<h2>Message</h2>
 
-    <button type="button" onclick="alert('Success')">SUBMIT</button>
+
+
+            <a href="contact.html">Contact</a> |
+
+
+
+
+            <a href="portfolio.html">Portfolio</a>
+
+
+
+        </div id="blankSpace">
+
+
+
+    </div>
+
+    <section>
+
+            <h2>Contact</h2>
+
+        <form>
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="fname" name="firstname" placeholder="Jane Smith">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Example@gmail.com">
+            <label for="message">Message</label>
+            <input type="text" id="message" name="message">
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+
+    </section>
 
 </body>
 
